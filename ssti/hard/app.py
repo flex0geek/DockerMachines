@@ -2,6 +2,7 @@ from flask import Flask, request, \
         render_template_string, render_template,redirect
 import os, random
 app = Flask(__name__)
+links = ["https://www.youtube.com/watch?v=YBS8rJvxnKo","https://www.youtube.com/watch?v=iik25wqIuFo"]
 
 @app.errorhandler(500)
 def server_error(e):
